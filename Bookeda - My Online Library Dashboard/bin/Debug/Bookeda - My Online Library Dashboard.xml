@@ -1,0 +1,146 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Bookeda - My Online Library Dashboard
+</name>
+</assembly>
+<members>
+<member name="T:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._101384537_3246187682067665_1669314798518534144_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._72752159_2721823734504065_3290802417481809920_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._97301163_3210663345620099_8066202766642511872_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._98021912_3210662752286825_7784520678018908160_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._99138936_3210662928953474_9150472311399251968_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._99152394_3210662865620147_2147924577932541952_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._99266987_3210663058953461_1606245664793034752_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._99280866_3210663072286793_9220242281301278720_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources._99408501_3210663362286764_6511179148109545472_o">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.hearts_480px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.hearts_512px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.login_rounded_right_512px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.login_rounded_right_filled_500px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.money_box_500px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.right_480px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.right_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.Screenshot_119">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.Screenshot_120">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.search_filled_500px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.squared_menu_filled_500px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.squared_menu_filled_500px1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.star_208px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.star_96px12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Bookeda___My_Online_Library_Dashboard.My.Resources.Resources.star_half_empty_96px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

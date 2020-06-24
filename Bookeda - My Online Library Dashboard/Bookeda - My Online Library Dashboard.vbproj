@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE35C7BD-7BDB-4814-81A1-34AEAC88B7D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Bookeda___My_Online_Library_Dashboard.My.MyApplication</StartupObject>
+    <RootNamespace>Bookeda___My_Online_Library_Dashboard</RootNamespace>
+    <AssemblyName>Bookeda - My Online Library Dashboard</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Bookeda - My Online Library Dashboard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Bookeda - My Online Library Dashboard.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\Guna.UI-Framework-Lib-master\Guna.UI2_WinFroms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_filled_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squared_menu_filled_500px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squared_menu_filled_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\101384537_3246187682067665_1669314798518534144_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star_96px12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star_half_empty_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts_512px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearts_480px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99408501_3210663362286764_6511179148109545472_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star_208px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\97301163_3210663345620099_8066202766642511872_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99266987_3210663058953461_1606245664793034752_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99138936_3210662928953474_9150472311399251968_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\98021912_3210662752286825_7784520678018908160_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99280866_3210663072286793_9220242281301278720_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\99152394_3210662865620147_2147924577932541952_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72752159_2721823734504065_3290802417481809920_o.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_rounded_right_filled_500px1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_rounded_right_512px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot_120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_box_500px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_96px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\right_480px.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
